@@ -67,14 +67,3 @@ This repository contains the implementation of the research paper:
   pages={01-07},
   keywords={Industries;Deep learning;Accuracy;Data preprocessing;Companies;Predictive models;Data models;Telecommunications;Numerical models;Long short term memory;Customer Churn Prediction;LSTM Networks;Telecommunications;Deep Learning;Retention Strategies},
   doi={10.1109/ICDSNS62112.2024.10691038}}
-
-
-
-
-
-
-
-
-
-
-
