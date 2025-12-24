@@ -1,13 +1,9 @@
 # Telecommunications Customer Retention using LSTM
 
 ## 📖 Introduction
-Why do customers leave from one telecommunication company? This project explores that question by predicting "churn"—the moment a customer switches to a different phone company. 
+Why do customers leave their telecommunication provider? This project explores that question by predicting "churn"—the moment a customer switches to a different phone company. 
 
 Customer retention is a crucial factor for profitability in the telecom sector. High churn rates significantly impact a company’s bottom line, market share, brand reputation, and long-term growth. This project implements advanced predictive analysis using **Long Short-Term Memory (LSTM)** networks to capture complex temporal patterns in customer behavior that traditional models often overlook.
-
-This repository contains the implementation of the research paper:  [![Paper](https://img.shields.io/badge/IEEE-Publication-blue)](https://doi.org/10.1109/ICDSNS62112.2024.10691038) **"Enhancing Telecommunications Customer Retention: A Deep Learning Approach Using LSTM for Predictive Churn Analysis"** (Published in ICDSNS 2024).
-
-
 
 ## 📊 Dataset Specifications
 The model is trained and validated using the **Customer Churn Prediction 2020** dataset from [![Dataset](https://img.shields.io/badge/Kaggle-Dataset-orange)](https://www.kaggle.com/c/customer-churn-prediction-2020).
@@ -54,6 +50,23 @@ Loss Graph:
 ROC Curve:
 
 <img width="1274" height="744" alt="image" src="https://github.com/user-attachments/assets/40e7cad7-7c0b-4cfc-8be6-d62158ec72e2" />
+
+
+# 📜 Citation
+This repository contains the implementation of the research paper:  
+[![Paper](https://img.shields.io/badge/IEEE-Publication-blue)](https://doi.org/10.1109/ICDSNS62112.2024.10691038) **"Enhancing Telecommunications Customer Retention: A Deep Learning Approach Using LSTM for Predictive Churn Analysis"** (Published in ICDSNS 2024).
+
+```bibtex
+@INPROCEEDINGS{10691038,
+  author={Ranjith Kumar, M and S, Priyanga and Srinivasan Anusha, Janani and Chatiyode, Veda and Santiago, Jerome and Chaudhary, Dharminder},
+  booktitle={2024 International Conference on Data Science and Network Security (ICDSNS)}, 
+  title={Enhancing Telecommunications Customer Retention: A Deep Learning Approach Using LSTM for Predictive Churn Analysis}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={01-07},
+  keywords={Industries;Deep learning;Accuracy;Data preprocessing;Companies;Predictive models;Data models;Telecommunications;Numerical models;Long short term memory;Customer Churn Prediction;LSTM Networks;Telecommunications;Deep Learning;Retention Strategies},
+  doi={10.1109/ICDSNS62112.2024.10691038}}
 
 
 
