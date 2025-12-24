@@ -18,12 +18,28 @@ The model is trained and validated using the **Customer Churn Prediction 2020** 
 * **Input Features:** 19 (Including usage minutes, service plans, and support calls)
 * **Target:** 1 Boolean variable (`churn`)
 
-| Feature Category | Data Points |
-| :--- | :--- |
-| **Service Plans** | International Plan, Voice Mail Plan |
-| **Activity Metrics** | Day/Evening/Night/Intl Minutes, Calls, and Charges |
-| **Customer Support** | Customer Service Calls |
-| **Account Info** | Account Length, State, Area Code |
+| Feature Name | Type | Description |
+| :--- | :--- | :--- |
+| `state` | String | 2-letter code of the US state of residence |
+| `account_length` | Numerical | Number of months with the current provider |
+| `area_code` | String | 3-digit area code (e.g., "area_code_415") |
+| `international_plan` | Binary | Whether the customer has an international plan (yes/no) |
+| `voice_mail_plan` | Binary | Whether the customer has a voice mail plan (yes/no) |
+| `number_vmail_messages`| Numerical | Total number of voice-mail messages |
+| `total_day_minutes` | Numerical | Total minutes of daytime calls |
+| `total_day_calls` | Numerical | Total number of daytime calls |
+| `total_day_charge` | Numerical | Total charge of daytime calls |
+| `total_eve_minutes` | Numerical | Total minutes of evening calls |
+| `total_eve_calls` | Numerical | Total number of evening calls |
+| `total_eve_charge` | Numerical | Total charge of evening calls |
+| `total_night_minutes` | Numerical | Total minutes of night calls |
+| `total_night_calls` | Numerical | Total number of night calls |
+| `total_night_charge` | Numerical | Total charge of night calls |
+| `total_intl_minutes` | Numerical | Total minutes of international calls |
+| `total_intl_calls` | Numerical | Total number of international calls |
+| `total_intl_charge` | Numerical | Total charge of international calls |
+| `number_customer_service_calls` | Numerical | Number of calls made to customer service |
+
 
 
 
